@@ -14,21 +14,21 @@ session_start();
 </head>
 <body>
 <form action=""  method="post">
-    <br><span>Name</span></br>
+    <br><label>Name</label></br>
     <br> <input type="text" name="name"></br>
-    <br> <span>Password</span></br>
+    <br> <label>Password</label></br>
     <br> <input type="password" name="password"></br>
-    <br> <span>Email</span></br>
+    <br> <label>Email</label></br>
     <br><input type="email" name="email"></br>
-    <span>Birth Date</span>
+    <br><label>Birth Date</label></br>
     <br><input type="date" name="birth_date"></br>
-    <br><span>Gender:</span></br>
-    <br><span>Male</span></br>
+    <br><label>Gender:</label></br>
+    <br><label>Male</label></br>
     <input type="radio" name="gender" id="2" value="male">
-    <br><span>Female</span></br>
+    <br><label>Female</label></br>
     <input type="radio" name="gender" id="1" value="female"></br>
-    <span>Favourite colour</span>
-    <br><input type="text" name="colour"></br>
+    <label>Favourite colour</label>
+    <br><input type="color" name="colour"></br>
     <input type="submit">
 </form>
 
